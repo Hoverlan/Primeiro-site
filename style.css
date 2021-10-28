@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+body{
+    background-size: contain;
+    background-color: rgb(224, 236, 224);
+    font: normal 16 arial, verdana, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+nav>a{
+    text-decoration: none;
+    color: brown;
+    font-weight: bolder;
+    margin-right: 25px;
+    
+}
+
+header{
+    min-height: 40px;
+    padding-top: 30px;
+}
+header>h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: chocolate;
+    text-align: center;
+    padding-top: 30px;
+}
+
+h1{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: chocolate;
+   
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+        
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+  
+#principal{
+    font-size: 20px;
+    background-color: rgb(230, 230, 240);
+    padding: 1vw;
+    display: inline-block;   
+}
+
+div{
+    font-size: 20px;
+    background-color: rgb(196, 196, 223);
+    padding: 1vw;
+    position: relative;
+}
+
+div.op1 {
+    width: 600px;
+    display: inline-block;
+    background-color: rgb(230, 230, 240);
+    padding: 5vw 0vw 5vw 0vw;
+    min-width:40vw;
+    text-indent: 50px;
+}
+
+div.text {
+  
+    width: 500px;
+    height: 250px;
+    background-color: rgb(232, 240, 232);
+    display: inline-block;
+    margin: right 100px;
+    font-family:Verdana, Tahoma, sans-serif;
+    text-align: justify;
+    padding: 50px;
+    line-height: 2em;
+    
+}
+
+p{
+    text-align:right;
+    text-align: justify;
+    text-indent: 30px;
+    display: table-cell;
+    
+}
+ 
+p#p3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+body.input-all{
+    background-color: rgb(230, 238, 243);
+    background-size: 50%;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    height: 50%;
+    font-size: 30px;
+    
+}
+
+input{
+    box-sizing: border-box;
+    outline: auto;
+}
+
+.input-all{
+    margin: 20px 0;
+    
+}
+
+.input-all label{
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(197, 75, 14);
+    cursor: pointer;
+   
+}
+
+.input-all input::placeholder{
+    color: rgb(0, 26, 255);
+    font-weight: 200;
+    
+}
+
+.colunas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.colunas .input-all{
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(146, 171, 218);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}

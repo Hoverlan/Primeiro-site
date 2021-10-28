@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta  name= "description" content="site de produtos cacauway">
+    <meta name= "author" content="Luís Fenando, Uverland Alexandre">
+    <meta name="keywords" content="chocolates, cacauway, ogânicos">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Cadastro de clientes</title>
+  </head>
+       
+       
+    <body class="input-all">
+        <h1>Formulário de Cadastro</h1>
+        <nav style="text-align: left;">
+            <a href="index.html">Home</a>
+            <a href="page004.html">Sobre</a>
+            <a href="pag002.html">Produtos</a>
+        </nav>
+        <form action="salvar_dados.php" method="post">
+                              
+        <action="" id="formulário" method="POST"
+            name="formulario">
+               
+        <div class="colunas">
+            <div class="input-all">
+                <label for="Name" >Nome:</label>
+                <input type="text"id="Nome"name="Nome" placeholder="Insira o nome:">
+            </div>
+            <div class="input-all">
+                <label for="Rua">Rua</label>
+                <input type="address" id="rua"
+                name="rua" placeholder="Nome da rua:">
+            </div>
+            <div class="input-all">
+                <label for="Numero">Número:</label>
+                <input type="num" id="Numero"
+                name="Numero" placeholder="Numero da casa:">
+            </div>
+            <div class="input-all">
+                <label for="Email">E-mail:</label>
+                <input type="email" id="email"
+                name="email" placeholder="Insira o email:">
+            </div>
+        
+        </div>
+    
+        <div class="colunas">
+            <div class="input-all">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha"
+                name="senha" placeholder="Insira a senha:">
+            </div>
+            <div class="input-all">
+                <label for="bairro">Bairro</label>
+                <input type="address" id="bairro"
+                name="bairro" placeholder="Nome do bairro:">
+            </div>
+            <div class="input-all">
+                <label for="Logradouro">Logradouro</label>
+                <input type="lograd" id="logradouro" name="logradouro" placeholder="Logradoouro">
+            </div>         
+            <div class="input-all">
+                <label for="Telefone">Telefone:</label>
+                <input type="tel" id="Telefone"
+                name="Telefone" placeholder="insira o Telefone:">
+            </div>
+        </div>
+          
+        <div class="colunas">
+            <div class="input-all">
+                <label for="RepetirSenha">Repita Senha:</label>
+                <input type="text" id="RepetirSenha"
+                name="RepetirSenha" placeholder="Repetir Senha:">
+            </div>
+            <div class="input-all">
+                <label for="cidade">Cidade</label>
+                <input type="address" id="cidade"
+                name="rua" placeholder="Nome da cidade:">
+            </div>
+            <div class="input-all">
+                <label for="Estado">Estado</label>
+                <input type="Estado" id="estado" name="estado" placeholder="Estado">
+            </div>
+            <div class="input-all">
+                <label for="sexo">Sexo:</label>
+                <select name="sexo" id="sexo">
+                    <option value="informar"></option>
+                    <option value="M">Masculino</option>
+                    <option value="F">Feminino</option>
+                    <option value="x">Não informar</option>
+                </select>
+            </div>
+     
+        </div>
+          
+        <div class="colunas">
+            <div class="input-all" style="text-align:justify" >
+               <h1 style="font-size: 20px;">Como é o seu consumo de chocolate?</h1>
+                <input type="checkbox">Diário <br/>
+                <input type="checkbox">Semanal<br/>
+                <input type="checkbox">Mensal <br/>
+            </div>
+            <div class="input-all">
+                <label for="newsletter">Atualizações</label>
+                <input type="checkbox" id="newslatter"/>
+                <small>Desejo receber novidades</small>
+            </div>
+            <div class="input-all" style="text-align: justify">
+                <h1 style="font-size: 20px;">Qual sua preferência de acesso ao produto?</h1>
+                <input type="radio">Entregador <br/>
+                <input type="radio">Via correios <br/>
+                <input type="radio">Pegar na loja <br/>
+            </div>
+            
+        </div>
+        <div style="text-align: center;">
+            <button type="submit" class="botão" onclick="validar()">Enviar</button> 
+        </div>    
+                
+        <footer>
+            <p>Site criado por <a href="https://github.com/Hoverlan" target="_blank"> Uverland Alexandre </a> para a Disciplina de Programação de Web - UCB.</p>
+        </footer>
+      
+      </form>
+    </body>
+</html>
+
+
+
+
